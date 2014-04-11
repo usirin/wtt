@@ -1,0 +1,35 @@
+{
+  "name": "wtt",
+  "version": "0.0.1",
+  "description": "WTT - What the type? A library for type checking in JS. But it's swag.",
+  "main": "lib/wtt.js",
+  "scripts": {
+    "test": "jasmine-node wtt.spec.coffee"
+  },
+  "keywords": [
+    "type",
+    "function",
+    "array",
+    "string",
+    "object",
+    "number",
+    "what the type",
+    "what"
+  ],
+  "author": "Umut Sirin",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "~1.14.2",
+    "grunt": "~0.4.4",
+    "grunt-contrib-coffee": "~0.10.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usirin/wtt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/usirin/wtt/issues"
+  },
+  "homepage": "https://github.com/usirin/wtt"
+}
