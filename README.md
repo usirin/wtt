@@ -1,7 +1,7 @@
 WTT - What the Type?
 =====
 
-`wtt` is a small library for type checking in JS.
+`wtt` is a small library for type checking in JS. _It's also **hips** and has **swag**_
 
 ## Version
 0.0.1
@@ -11,11 +11,19 @@ WTT - What the Type?
     npm install wtt
 
 ## Usage
-    var is = require('wtt');
+    var iz = require('wtt');
 
     var fn = function() { return true; }
 
-    is(fn).aFunction(); // returns true
+    iz(fn).aFunction(); // returns true
+
+    iz([]).anArray(); // returns true
+
+    iz(123).aNumber(); // returns true
+
+    iz('string').aString(); // returns true
+
+    iz({}).anObject(); // returns true
 
 
 ## License
